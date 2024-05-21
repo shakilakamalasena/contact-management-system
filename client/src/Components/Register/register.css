@@ -1,0 +1,49 @@
+/* ========== GOOGLE FONTS ========== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.form-container {
+    background-color: rgb(5, 121, 121);
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    /* background-color: rgba(0, 0, 0, 0.018); */
+    color: #fff;
+    background-color: rgb(30, 135, 137);
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 30px 30px 15px 30px;
+    width: 380px;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.form-btn {
+    width: 100%;
+    border-radius: 10px;
+    padding: 9px;
+}
+
+/* .button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50px;
+} */
+
+.error {
+    color: rgb(172, 28, 28);
+}

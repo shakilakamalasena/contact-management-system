@@ -1,0 +1,22 @@
+.home {
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    padding-inline: 30px;
+    /* background-color: linear-gradient(); */
+    background-color: rgb(30, 135, 137);
+}
+
+.home-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    word-spacing: 1%;
+}
+
+.home-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
